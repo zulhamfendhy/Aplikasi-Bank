@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height:100%;
+    margin:0;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0 10%;
+    height: 94%;
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+}
+
+p.error {
+	color: red;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #009688;
+}
+
+a:hover {
+	color: #00796B;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 8px 8px;
+    margin: 2px 2px -4px 2px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: auto;
+	background-color: #009688;
+	color: white;
+	padding: 8px;
+	margin: 6px 8px;
+	border: none;
+	border-radius: 4px;
+    font-size: 1em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+input[type=submit]:hover {
+	background-color: #00796B;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+}
+
+div.login {
+	max-width: 400px;
+	margin: 10% auto;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	box-shadow: 0px 4px 10px #888888;
+}
+
+div.register {
+    max-width: 850px;
+    margin: 4% auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 4px 10px #888888;
+}
+
+.login form , .register form {
+	padding: 18px 18px 2px 18px;
+}
+
+.center {
+	text-align: center;
+}
+
+.headform {
+	background-color: #009688;
+	color: #fff;
+	padding: 0.1px;
+}
+
+.background {
+    min-height: 800px;
+    box-shadow: 0px 4px 8px #888888;
+}
+
+.menu {
+    position: fixed;
+    min-width: 80%;
+    min-height: 50px;
+    background-color: #263238;
+    box-shadow: 0px 4px 10px #888888;
+}
+
+.menu a.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 16px;
+}
+
+.menu p.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+}
+.menu p {
+    margin: 0px;
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 8px ;
+    text-decoration: none;
+}
+
+.menu a {
+    float: left;
+    /*display: block;*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+.menu a:hover {
+    background-color: #37474F;
+    color: white;
+}
+
+.menuright {
+    float: right;
+}
+
+.row {
+    padding-top: 4%;
+    min-height: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a.button  {
+    width: auto;
+    background-color: #009688;
+    color: white;
+    padding: 9px;
+    margin: 6px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+a.button:hover {
+    background-color: #00796B;
+}
+
+.background .menu {
+    position: relative;
+    min-width: 80%;
+    min-height: 50px;
+    background-color: #263238;
+    box-shadow: 0px 4px 10px #888888;
+}
+
+.footer {
+    margin: 0px;
+    background-color: #263238;
+    min-height: 30px;
+    padding: 2px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px 4px 10px #888888;
+}
+
+.form-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 16px;
+}
+
+.col-40 {
+    float: left;
+    width: 40%;
+    padding: 4px;
+}
+
+.col-35 {
+    float: left;
+    width: 40%;
+    color: red;
+    margin-top: 16px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.col-100 input[type=submit]{
+    width: 100%;
+    background-color: #009688;
+    color: white;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+#w55{
+    width: 55%;
+}
+
+#w25{
+    width: 25%;
+}
+
+#col-2{
+    width: 20%;
+}
